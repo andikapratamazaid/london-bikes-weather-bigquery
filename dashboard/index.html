@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<title>London Bikes x Weather - Demand Dashboard 2017-2019</title>
+<style>
+body{font-family:Arial,Helvetica,sans-serif;margin:0;background:#f4f6f9;color:#16324f}
+header{background:#16324f;color:#fff;padding:28px 36px}
+header h1{margin:0 0 6px;font-size:26px} header p{margin:0;opacity:.85}
+.wrap{max-width:1080px;margin:0 auto;padding:24px 20px 40px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin-bottom:22px}
+.card{background:#fff;border-radius:10px;padding:16px;box-shadow:0 1px 4px rgba(0,0,0,.08)}
+.card .v{font-size:24px;font-weight:700} .card .l{font-size:13px;margin-top:2px}
+.card .s{font-size:12px;color:#667}
+.panel{background:#fff;border-radius:10px;padding:20px;margin-bottom:20px;box-shadow:0 1px 4px rgba(0,0,0,.08)}
+.panel h2{margin-top:0;font-size:18px} .panel img{width:100%}
+table{border-collapse:collapse;width:100%;font-size:14px}
+td,th{border-bottom:1px solid #e3e8ef;padding:7px 8px;text-align:left}
+footer{font-size:12px;color:#778;text-align:center;padding:14px}
+</style></head><body>
+<header><h1>London Bikes x Weather</h1>
+<p>Santander Cycles demand vs Heathrow weather, 2017-2019.
+BigQuery public datasets london_bicycles + noaa_gsod, computed locally from the official TfL and NOAA sources.</p></header>
+<div class="wrap">
+<div class="cards">
+<div class="card"><div class="v">30,957,132</div><div class="l">Total rides analysed</div><div class="s">2017-2019, official TfL extracts</div></div>
+<div class="card"><div class="v">28,453</div><div class="l">Average rides per day</div><div class="s">busiest day 2017-07-05 (46,157)</div></div>
+<div class="card"><div class="v">836</div><div class="l">Stations</div><div class="s">with at least one start or end</div></div>
+<div class="card"><div class="v">0.708</div><div class="l">Temperature correlation</div><div class="s">daily rides vs average temperature</div></div>
+<div class="card"><div class="v">-23.7%</div><div class="l">Heavy rain effect</div><div class="s">mean daily rides, 5+ mm days vs dry days</div></div>
+<div class="card"><div class="v">+101.3%</div><div class="l">Warm vs cold days</div><div class="s">20C+ days vs below 5C days</div></div>
+</div>
+<div class="panel"><h2>Daily demand</h2><img src="../charts/daily_demand_trend.png"></div>
+<div class="panel"><h2>Weather impact</h2><img src="../charts/rides_vs_temperature.png">
+<img src="../charts/rain_impact.png"></div>
+<div class="panel"><h2>Commuter pattern</h2><img src="../charts/hourly_patterns.png">
+<p>Weekday rides inside the commute windows (07:00-09:59 and 17:00-19:59) make up
+<b>55.4%</b> of weekday rides, against
+<b>26.6%</b> at weekends. Median trip duration:
+13.0 minutes on weekdays, 16.0 minutes at weekends.</p></div>
+<div class="panel"><h2>Busiest stations</h2><img src="../charts/station_flow.png"></div>
+<div class="panel"><h2>Models</h2>
+<table>
+<tr><th>Model</th><th>Evaluation</th><th>MAE</th><th>RMSE</th><th>R2 / MAPE</th></tr>
+<tr><td>Weather regression (linear, BigQuery ML equivalent)</td><td>trained 2017-2018, tested on 2019</td>
+<td>3,486.6</td><td>4,623.9</td><td>R2 0.664, MAPE 15.6%</td></tr>
+<tr><td>Demand forecast (SARIMA, ARIMA_PLUS equivalent)</td><td>last 90 days of 2019 held out</td>
+<td>3,541.5</td><td>4,867.7</td><td>MAPE 20.7%</td></tr>
+<tr><td>Seasonal naive baseline</td><td>same holdout</td>
+<td>10,463.0</td><td>12,014.1</td><td>MAPE 63.9%</td></tr>
+</table>
+<img src="../charts/forecast.png" style="margin-top:14px"></div>
+</div>
+<footer>Data: Transport for London open data and NOAA GSOD (Heathrow 03772099999).
+SQL for the original BigQuery public datasets is in the sql folder of the project.</footer>
+</body></html>
