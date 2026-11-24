@@ -1,0 +1,9 @@
+{
+  "files": 156,
+  "total_rides": 30957132,
+  "rides_with_valid_duration": 30891786,
+  "days": 1088,
+  "stations": 836,
+  "date_min": "2017-01-01",
+  "date_max": "2019-12-31"
+}
