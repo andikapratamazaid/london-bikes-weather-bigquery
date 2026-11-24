@@ -1,13 +1,13 @@
-# London Bikes × Weather — Demand Forecasting with BigQuery
+# London Bikes × Weather - Demand Forecasting with BigQuery
 
 How much does the weather move a city bike-share scheme? This project joins two
-BigQuery public datasets — `bigquery-public-data.london_bicycles` (Santander
+BigQuery public datasets - `bigquery-public-data.london_bicycles` (Santander
 Cycles hire data) and `bigquery-public-data.noaa_gsod` (NOAA weather) — to
 quantify the weather's effect on daily demand, map station flow imbalance, and
 forecast demand with BigQuery ML (ARIMA_PLUS) plus a weather regression
 (LINEAR_REG).
 
-**Headline numbers (2017–2019, computed locally from the official sources —
+**Headline numbers (2017–2019, computed locally from the official sources -
 see "How the numbers were produced" below):**
 
 - **30,957,132 rides** analysed over **1,088 days** across **836 stations**
