@@ -1,0 +1,15 @@
+dimension,band,days,avg_daily_rides
+temperature,below 5C,126,19777
+temperature,5-10C,303,22737
+temperature,10-15C,285,28615
+temperature,15-20C,292,34842
+temperature,20C and above,82,39590
+rainfall,dry (0 mm),598,31278
+rainfall,light (0-2 mm),250,25498
+rainfall,moderate (2-5 mm),112,25214
+rainfall,heavy (5-10 mm),84,23070
+rainfall,very heavy (10+ mm),44,25367
+wind,calm (below 10 km/h),295,29853
+wind,breeze (10-20 km/h),615,28617
+wind,windy (20-30 km/h),163,25783
+wind,strong (30+ km/h),15,23220
