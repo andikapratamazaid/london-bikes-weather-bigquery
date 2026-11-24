@@ -1,0 +1,21 @@
+{
+  "total_rides": 30957132,
+  "days": 1088,
+  "avg_daily_rides": 28453,
+  "busiest_day": "2017-07-05",
+  "busiest_day_rides": 46157,
+  "quietest_day": "2017-12-10",
+  "quietest_day_rides": 5081,
+  "stations": 836,
+  "median_duration_weekday_min": 13.0,
+  "median_duration_weekend_min": 16.0,
+  "mean_duration_weekday_min": 18.1,
+  "mean_duration_weekend_min": 26.1,
+  "commute_window_share_weekday_pct": 55.4,
+  "commute_window_share_weekend_pct": 26.6,
+  "corr_temp": 0.708,
+  "corr_prcp": -0.175,
+  "corr_wind": -0.172,
+  "heavy_rain_vs_dry_pct": -23.7,
+  "warm_vs_cold_pct": 101.3
+}
