@@ -1,0 +1,101 @@
+station_id,station_name,starts,ends,net_flow,total_activity,imbalance_ratio
+14,"Belgrove Street , King's Cross",271934,267043,-4891,538977,0.009
+191,"Hyde Park Corner, Hyde Park",244596,244203,-393,488799,0.001
+154,"Waterloo Station 3, Waterloo",241842,230981,-10861,472823,0.023
+374,"Waterloo Station 1, Waterloo",183006,172760,-10246,355766,0.029
+303,"Albert Gate, Hyde Park",176717,177489,772,354206,0.002
+307,"Black Lion Gate, Kensington Gardens",177128,174178,-2950,351306,0.008
+194,"Hop Exchange, The Borough",144700,195706,51006,340406,0.15
+251,"Brushfield Street, Liverpool Street",127379,156126,28747,283505,0.101
+248,"Triangle Car Park, Hyde Park",138520,136692,-1828,275212,0.007
+217,"Wormwood Street, Liverpool Street",133250,140947,7697,274197,0.028
+213,"Wellington Arch, Hyde Park",136511,135686,-825,272197,0.003
+66,"Holborn Circus, Holborn",105060,157880,52820,262940,0.201
+132,"Bethnal Green Road, Shoreditch",127043,128009,966,255052,0.004
+732,"Duke Street Hill, London Bridge",124259,129438,5179,253697,0.02
+762,"Storey's Gate, Westminster",120129,131786,11657,251915,0.046
+101,"Queen Street 1, Bank",121356,124086,2730,245442,0.011
+785,"Aquatic Centre, Queen Elizabeth Olympic Park",120096,120736,640,240832,0.003
+341,"Craven Street, Strand",116707,119968,3261,236675,0.014
+104,"Crosswall, Tower",112827,119396,6569,232223,0.028
+427,"Cheapside, Bank",111531,118882,7351,230413,0.032
+109,"Soho Square , Soho",104380,125886,21506,230266,0.093
+55,"Finsbury Circus, Liverpool Street",107599,120919,13320,228518,0.058
+111,"Park Lane , Hyde Park",114427,113500,-927,227927,0.004
+553,"Regent's Row , Haggerston ",113399,109994,-3405,223393,0.015
+71,"Newgate Street , St. Paul's",99352,120734,21382,220086,0.097
+404,"Palace Gate, Kensington Gardens",106076,105775,-301,211851,0.001
+229,"Whitehall Place, Strand",98498,107990,9492,206488,0.046
+73,"Old Street Station, St. Luke's",98703,103114,4411,201817,0.022
+428,"Exhibition Road, Knightsbridge",95352,105376,10024,200728,0.05
+228,"St. James's Square, St. James's",85328,113540,28212,198868,0.142
+199,"Great Tower Street, Monument",92347,103016,10669,195363,0.055
+130,"Tower Gardens , Tower",92563,101838,9275,194401,0.048
+356,"South Kensington Station, South Kensington",95344,98546,3202,193890,0.017
+541,"Green Park Station, Mayfair",92760,99414,6654,192174,0.035
+361,"Waterloo Station 2, Waterloo",112299,77790,-34509,190089,0.182
+39,"Shoreditch High Street, Shoreditch",94883,93660,-1223,188543,0.006
+270,"Kennington Lane Rail Bridge, Vauxhall",93818,93947,129,187765,0.001
+300,"Serpentine Car Park, Hyde Park",93359,92528,-831,185887,0.004
+64,"William IV Street, Strand",82078,101996,19918,184074,0.108
+564,"Somerset House, Strand",86587,95362,8775,181949,0.048
+278,"Tooley Street, Bermondsey",84758,95422,10664,180180,0.059
+215,"Moorfields, Moorgate",83859,92783,8924,176642,0.051
+272,"Baylis Road, Waterloo",85515,90123,4608,175638,0.026
+350,"Queen's Gate, Kensington Gardens",87554,87261,-293,174815,0.002
+74,"Vauxhall Cross, Vauxhall",86502,86658,156,173160,0.001
+579,"Queen Street 2, Bank",75313,95236,19923,170549,0.117
+737,"Fulham Broadway, Walham Green",84698,85025,327,169723,0.002
+177,"Ashley Place, Victoria",81637,87599,5962,169236,0.035
+32,"Leonard Circus , Shoreditch",80698,87621,6923,168319,0.041
+116,"Little Argyll Street, West End",78802,87263,8461,166065,0.051
+46,"Nesham Street, Wapping",82849,82556,-293,165405,0.002
+574,"Eagle Wharf Road, Hoxton",91599,72757,-18842,164356,0.115
+202,"Leman Street, Aldgate",82374,81297,-1077,163671,0.007
+107,"Finsbury Leisure Centre, St. Luke's",81611,80065,-1546,161676,0.01
+12,"Malet Street, Bloomsbury",79800,80567,767,160367,0.005
+133,"Derry Street, Kensington",78168,80867,2699,159035,0.017
+95,"Aldersgate Street, Barbican",77310,79963,2653,157273,0.017
+153,"Bayswater Road, Hyde Park",78755,78437,-318,157192,0.002
+340,"Bank of England Museum, Bank",75517,81432,5915,156949,0.038
+48,"Godliman Street, St. Paul's",74257,82177,7920,156434,0.051
+159,"Great Marlborough Street, Soho",72863,83241,10378,156104,0.066
+18,"Drury Lane, Covent Garden",75495,79928,4433,155423,0.029
+193,"Bankside Mix, Bankside",72196,82481,10285,154677,0.066
+695,"Islington Green, Angel",78983,74926,-4057,153909,0.026
+717,"Dunston Road , Haggerston",78797,72138,-6659,150935,0.044
+405,"Gloucester Road Station, South Kensington",75363,75304,-59,150667,0.0
+573,"Limerston Street, West Chelsea",74572,75063,491,149635,0.003
+246,"Berry Street, Clerkenwell",70807,75196,4389,146003,0.03
+99,"Old Quebec Street, Marylebone",71737,73264,1527,145001,0.011
+167,"Eccleston Place, Victoria",71263,72012,749,143275,0.005
+436,"Red Lion Street, Holborn",72386,70461,-1925,142847,0.013
+282,"Royal London Hospital, Whitechapel",71139,70798,-341,141937,0.002
+195,"Milroy Walk, South Bank",70254,71027,773,141281,0.005
+703,"St. Bride Street, Holborn",63608,77633,14025,141241,0.099
+225,"Notting Hill Gate Station, Notting Hill",75795,65160,-10635,140955,0.075
+192,"Wardour Street, Soho",68280,72278,3998,140558,0.028
+338,"Wellington Street , Strand",66394,72864,6470,139258,0.046
+17,"Hatton Wall, Holborn",68378,70566,2188,138944,0.016
+290,"Winsland Street, Paddington",70409,68175,-2234,138584,0.016
+360,"Howick Place, Westminster",61277,74759,13482,136036,0.099
+298,"Curlew Street, Shad Thames",67148,67488,340,134636,0.003
+386,"Moor Street, Soho",64496,69643,5147,134139,0.038
+354,"Northumberland Avenue, Strand",60357,72844,12487,133201,0.094
+331,"Bunhill Row, Moorgate",61108,71885,10777,132993,0.081
+773,"Tallis Street, Temple",62891,69783,6892,132674,0.052
+5,"Sedding Street, Sloane Square",63255,69043,5788,132298,0.044
+587,"Monument Street, Monument",62518,68149,5631,130667,0.043
+214,"Endsleigh Gardens, Euston",67053,63564,-3489,130617,0.027
+492,"The Green Bridge, Mile End",66218,63932,-2286,130150,0.018
+583,"Abingdon Green, Westminster",57982,71261,13279,129243,0.103
+233,"Pall Mall East, West End",58302,70175,11873,128477,0.092
+203,"West Smithfield Rotunda, Farringdon",62994,65459,2465,128453,0.019
+345,"Flood Street, Chelsea",63960,64157,197,128117,0.002
+135,"Clerkenwell Green, Clerkenwell",62761,64868,2107,127629,0.017
+45,"Boston Place, Marylebone",68632,57887,-10745,126519,0.085
+119,"Bath Street, St. Luke's",62556,63795,1239,126351,0.01
+136,"Queen Victoria Street, St. Paul's",59792,66150,6358,125942,0.05
+321,"Bermondsey Street, Bermondsey",63995,61939,-2056,125934,0.016
+658,"Ethelburga Estate, Battersea Park",63426,62203,-1223,125629,0.01
+335,"Tavistock Street, Covent Garden",55757,69447,13690,125204,0.109

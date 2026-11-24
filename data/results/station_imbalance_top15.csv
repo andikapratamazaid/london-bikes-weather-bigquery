@@ -1,0 +1,16 @@
+station_id,station_name,starts,ends,net_flow,total_activity,imbalance_ratio
+327,"New North Road 1, Hoxton",14733,8276,-6457,23009,0.281
+339,"Risinghill Street, Angel",25149,14421,-10728,39570,0.271
+93,"Cloudesley Road, Angel",36150,21004,-15146,57154,0.265
+189,"Claremont Square, Angel",27411,16789,-10622,44200,0.24
+170,"Hardwick Street, Clerkenwell",28426,17809,-10617,46235,0.23
+560,"Ladbroke Grove Central, Ladbroke Grove",12264,7742,-4522,20006,0.226
+66,"Holborn Circus, Holborn",105060,157880,52820,262940,0.201
+1,"River Street , Clerkenwell",24828,16711,-8117,41539,0.195
+286,"St. John's Wood Road, St. John's Wood",23421,16049,-7372,39470,0.187
+361,"Waterloo Station 2, Waterloo",112299,77790,-34509,190089,0.182
+222,"Knightsbridge, Hyde Park",40848,28501,-12347,69349,0.178
+674,"Carnegie Street, King's Cross",26951,19153,-7798,46104,0.169
+590,"Greenberry Street, St.John's Wood",12018,8559,-3459,20577,0.168
+697,"Charlotte Terrace, Angel",27007,19388,-7619,46395,0.164
+194,"Hop Exchange, The Borough",144700,195706,51006,340406,0.15

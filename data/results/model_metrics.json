@@ -1,0 +1,42 @@
+{
+  "regression": {
+    "linear_regression_test_2019": {
+      "mae": 3486.6,
+      "rmse": 4623.9,
+      "r2": 0.664,
+      "mape_pct": 15.6
+    },
+    "random_forest_test_2019": {
+      "mae": 3756.3,
+      "rmse": 4874.3,
+      "r2": 0.627,
+      "mape_pct": 16.7
+    },
+    "linear_regression_train_2017_2018": {
+      "mae": 3436.0,
+      "rmse": 4587.4,
+      "r2": 0.754,
+      "mape_pct": 17.0
+    }
+  },
+  "forecast": {
+    "sarima_holdout": {
+      "mae": 3541.5,
+      "rmse": 4867.7,
+      "r2": 0.541,
+      "mape_pct": 20.7
+    },
+    "seasonal_naive_holdout": {
+      "mae": 10463.0,
+      "rmse": 12014.1,
+      "r2": -1.794,
+      "mape_pct": 63.9
+    },
+    "year_ago_holdout": {
+      "mae": 4716.2,
+      "rmse": 6885.7,
+      "r2": 0.082,
+      "mape_pct": 25.0
+    }
+  }
+}
