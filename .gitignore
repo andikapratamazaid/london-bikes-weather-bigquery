@@ -1,0 +1,6 @@
+.venv/
+data/raw_tfl/
+data/processed/*.npy
+__pycache__/
+*.log
+.pytest_cache/
